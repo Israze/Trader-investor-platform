@@ -1,0 +1,24 @@
+{
+    "canisters": {
+      "icp_hello_world_motoko_backend": {
+        "main": "src/trader_investor_platform/main.mo",
+        "type": "motoko",
+        "candid": "src/trader_investor_platform/trader_investor_platform.did"
+      }
+    },
+    "networks": {
+      "ic": {
+        "providers": ["https://ic0.app"],
+        "wallet": "bnz7o-iuaaa-aaaaa-qaaaa-cai"
+      }
+
+    },
+    "defaults": {
+      "build": {
+        "args": "",
+        "packtool": ""
+      }
+    },
+    "output_env_file": ".env",
+    "version": 1
+  }
